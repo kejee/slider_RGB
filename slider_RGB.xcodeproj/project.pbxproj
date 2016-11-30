@@ -13,6 +13,8 @@
 		0AF15E251DEE670200E099C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AF15E231DEE670200E099C8 /* Main.storyboard */; };
 		0AF15E271DEE670200E099C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AF15E261DEE670200E099C8 /* Assets.xcassets */; };
 		0AF15E2A1DEE670200E099C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AF15E281DEE670200E099C8 /* LaunchScreen.storyboard */; };
+		0AF15E331DEE708100E099C8 /* UIColor+NotRGB.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF15E321DEE708100E099C8 /* UIColor+NotRGB.m */; };
+		0AF15E391DEE78A800E099C8 /* NSString+intTo16.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF15E381DEE78A800E099C8 /* NSString+intTo16.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		0AF15E261DEE670200E099C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0AF15E291DEE670200E099C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0AF15E2B1DEE670200E099C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AF15E311DEE708100E099C8 /* UIColor+NotRGB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+NotRGB.h"; sourceTree = "<group>"; };
+		0AF15E321DEE708100E099C8 /* UIColor+NotRGB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+NotRGB.m"; sourceTree = "<group>"; };
+		0AF15E371DEE78A800E099C8 /* NSString+intTo16.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+intTo16.h"; sourceTree = "<group>"; };
+		0AF15E381DEE78A800E099C8 /* NSString+intTo16.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+intTo16.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				0AF15E1E1DEE670200E099C8 /* AppDelegate.m */,
 				0AF15E201DEE670200E099C8 /* ViewController.h */,
 				0AF15E211DEE670200E099C8 /* ViewController.m */,
+				0AF15E311DEE708100E099C8 /* UIColor+NotRGB.h */,
+				0AF15E321DEE708100E099C8 /* UIColor+NotRGB.m */,
+				0AF15E371DEE78A800E099C8 /* NSString+intTo16.h */,
+				0AF15E381DEE78A800E099C8 /* NSString+intTo16.m */,
 				0AF15E231DEE670200E099C8 /* Main.storyboard */,
 				0AF15E261DEE670200E099C8 /* Assets.xcassets */,
 				0AF15E281DEE670200E099C8 /* LaunchScreen.storyboard */,
@@ -110,8 +120,7 @@
 				TargetAttributes = {
 					0AF15E161DEE670200E099C8 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 9HFLQ4KN76;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -154,6 +163,8 @@
 				0AF15E221DEE670200E099C8 /* ViewController.m in Sources */,
 				0AF15E1F1DEE670200E099C8 /* AppDelegate.m in Sources */,
 				0AF15E1C1DEE670200E099C8 /* main.m in Sources */,
+				0AF15E391DEE78A800E099C8 /* NSString+intTo16.m in Sources */,
+				0AF15E331DEE708100E099C8 /* UIColor+NotRGB.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,7 +282,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 9HFLQ4KN76;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = slider_RGB/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cn.keje.slider-RGB";
@@ -283,7 +294,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 9HFLQ4KN76;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = slider_RGB/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cn.keje.slider-RGB";
@@ -310,6 +321,7 @@
 				0AF15E301DEE670200E099C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
