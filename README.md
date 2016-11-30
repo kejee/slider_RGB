@@ -1,1 +1,1 @@
-/Users/K/Desktop/myGit/slider_RGB/demo.gif
+<src img = "https://github.com/kejee/slider_RGB/blob/master/demo.gif" />
